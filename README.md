@@ -1,11 +1,6 @@
 # Dillinger
 ## _3D Portfolio Webpage_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-
 3D Portfolio Webpage designed using ReactJS and ThreeJS libraries.
 
 This profile shows all the works done and about the developer
@@ -23,10 +18,6 @@ To use this repo, create a single branch and pull the codebase.
 - Import and save files from GitHub, Dropbox, Google Drive and One Drive
 - Drag and drop markdown and HTML files into Dillinger
 - Export documents as Markdown, HTML and PDF
-
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
 
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
