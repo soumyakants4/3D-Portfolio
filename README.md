@@ -14,8 +14,8 @@ ThreeJS uses a number of open source projects to work properly:
 
 - [ReactJS] - HTML enhanced for web apps!
 - [Material UI] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Vite] - fast react.js network app framework [@tjholowaychuk]
+- [nodejs.org] - evented I/O for the backend
+- [Vite] - fast react.js frontend web tool
 - [GLTF] - creates a pipeline to convert 3D models to JSX files
 - [jQuery] - duh
 - [JavaScript] - bruuh
