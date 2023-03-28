@@ -11,14 +11,25 @@ const Section = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    height: 200vh;
+  } ;
 `;
 
 const Container = styled.div`
-  height: 100vh;
+  height: 100%;
   scroll-snap-align: center;
   width: 1400px;
   justify-content: space-between;
   display: flex;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  } ;
 `;
 
 const Left = styled.div`
@@ -27,10 +38,19 @@ const Left = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+
+  @media only screen and (max-width: 768px) {
+    flex: 1;
+    align-items: center;
+  } ;
 `;
 
 const Title = styled.h1`
   font-size: 75px;
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  } ;
 `;
 
 const WhatWeDo = styled.div`
@@ -50,6 +70,11 @@ const Subtitle = styled.h2`
 const Desc = styled.p`
   font-size: 25px;
   color: lightgray;
+
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+    text-align: center;
+  } ;
 `;
 
 const Button = styled.button`
@@ -67,6 +92,11 @@ const Button = styled.button`
 const Right = styled.div`
   flex: 4;
   position: relative;
+
+  @media only screen and (max-width: 768px) {
+    flex: 1;
+    width: 100%;
+  } ;
 `;
 
 const Img = styled.img`
@@ -86,6 +116,11 @@ const Img = styled.img`
       transform: translateY(20px);
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    height: 300px;
+    width: 300px;
+  } ;
 `;
 
 const Hero = () => {
