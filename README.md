@@ -8,6 +8,7 @@ This profile shows all the works done and about the developer
 
 To use this repo, create a single branch and pull the codebase.
 
+<img width="389" alt="Screenshot 2023-03-29 at 12 47 11 AM" src="https://user-images.githubusercontent.com/89999449/229302867-64b408b8-ec8c-4c90-ba77-b7ecb8fb8c93.png">
 
 
 ## Tech
